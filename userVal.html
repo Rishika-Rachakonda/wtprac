@@ -67,7 +67,7 @@
             }
 
             // Validate email
-            var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+           var emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
             if (!emailRegex.test(email)) {
                 displayError('email', 'Please enter a valid email address.');
                 valid = false;
