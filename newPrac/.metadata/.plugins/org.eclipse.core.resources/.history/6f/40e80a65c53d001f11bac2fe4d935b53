@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="jspuservis.jsp" method="get">
+Name: <input type="text" name="uname" />
+Email : <input type="text" name="email"/>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+package beans;
+
+public class trisquaree {
+	int recl;
+	int recbre;
+	int squarelen;
+	void setrecl(int l)
+	{
+		this.recl = l;
+	}
+	void setrecbre(int l)
+	{
+		this.recbre = l;
+	}
+	void setsquarelen(int l)
+	{
+		this.squarelen = l;
+	}
+	
+	int getrecl()
+	{
+		return recl;
+	}
+	int getrecbre()
+	{
+		return recbre;
+	}
+	int getsquarelen()
+	{
+		return squarelen;
+	}
+	
+	int areaRec(int l,int bre)
+	{
+		return l*bre;
+	}
+	int areasq(int side) 
+	{
+		return side*side; ;
+	}
+
+}

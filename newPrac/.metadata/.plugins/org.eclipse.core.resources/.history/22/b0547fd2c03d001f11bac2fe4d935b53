@@ -1,0 +1,13 @@
+package beans;
+
+public class trisquaree {
+	
+	int areaRec(int l, int b)
+	{
+		return l*b;
+	}
+	int areasq(int s) {
+		return s*s ;
+	}
+
+}

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>User</title>
+</head>
+<body>
+<form action="Register" method="get">
+FirstName  : <input type="text" name="FirstName">
+<br/>
+LastName : <input type="text" name="LastName">
+
+</form>
+</body>
+</html>
